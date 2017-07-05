@@ -1,0 +1,85 @@
+// h1 {
+//     text-transform: uppercase;
+// }
+.about-comment h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.about-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    fflex-wrap: wrap;
+    margin-bottom: 4rem;
+    margin-top: 3rem;
+}
+
+.about-comtainer {
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+// start of the small info box //
+
+.about-box-wrapper {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #1999dd;
+    padding: 15px;
+    margin: 25px;
+}
+
+.social-icons-containetr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+
+.icon-pic-containetr {
+    display: flex;
+}
+
+.employee-info {
+    padding-left: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+// start of the large info box //
+.icon-pic-containetr-large {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+   
+}
+
+.social-icons-containetr-large {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.about-box-wrapper .fea-employee-large {
+    border: 1px solid #1999dd;
+    padding: 15px;
+    max-width: 25%;
+}
+
+// start social icon hover
+
+.social-icons-containetr-large a img.hover-twitter {
+    display: none;
+}
+.social-icons-containetr-large a img.default-twitter {
+    display: inherit;
+}
+a:hover img.hover-twitter {
+    display: inherit;
+}
+a:hover img.default-twitter {
+    display: none;
+}
+

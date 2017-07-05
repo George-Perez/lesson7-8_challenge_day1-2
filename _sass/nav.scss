@@ -1,0 +1,116 @@
+// start of Navbar transpaernt found on http://bit.ly/2tcTBWv
+.navbar-wrapper {
+    position: relative;
+}
+
+.carousel {
+    top: 0;
+}
+
+.carousel-inner {
+    width: 100%;
+    overflow: hidden;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    z-index: 10;
+
+    width: 100%;
+    padding: 0px;
+    border-bottom: 1px solid #1999dd;
+}
+
+// Finsh of navbar fix
+
+.background-nav {
+    height: 100%;
+    width: auto;
+}
+
+.navbar a.navbar-brand {
+    color: #1999dd;
+}
+
+
+/* change navbar background */
+
+nav.navbar {
+    background-color: black;
+    color: #1999dd;
+}
+
+
+/* change navbar-brand color on hover */
+
+.navbar a.navbar-brand:hover {
+    color: white;
+}
+
+.nav-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-item:hover {
+    background: #1999dd;
+}
+
+
+/* change hamburger button border color */
+
+button.navbar-toggler.navbar-toggler-right {
+    border-color: #1999dd;
+}
+
+
+/* change navbar-toggler inside lines color (stroke) */
+
+.navbar-light span.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#1999dd' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    color: white;
+}
+
+
+/*  change navbar li colors, also active one but not disabled one */
+
+.navbar ul.navbar-nav li.nav-item a.nav-link {
+    color: #1999dd;
+    font-family: 'quicksand', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    padding: 15px;
+    height: 100%;
+}
+
+.navbar ul.navbar-nav li.nav-item a.nav-link:hover {
+    color: white;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+}
+.carousel-indicators li {
+  display: inline-block;
+  max-width: 15px;
+  height: 15px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.0);
+  border: 2px solid #fff;
+}
+
+
+.carousel-indicators .active {
+    background-color: #1999dd; 
+}

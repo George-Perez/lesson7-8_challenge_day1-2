@@ -1,0 +1,110 @@
+html {
+  font-size: 62.5%; }
+
+nav {
+  background: black; }
+
+.navbar-brand {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 3rem;
+  padding-left: 3rem;
+  color: red; }
+
+.menu-items {
+  display: none; }
+
+.menu-icon div {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0; }
+
+.carousel-item > img {
+  /* fixes bootstrap 4 bug: bit.ly/bootstrap4-carousel */
+  width: 100%;
+  height: 100%; }
+
+.laptop {
+  /*   width: 36%; */ }
+
+.product-caption-title,
+.product-caption-button {
+  text-transform: uppercase; }
+
+.product-caption-button {
+  color: white;
+  border: 1px solid white;
+  padding: 5px 15px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.3); }
+
+h3 {
+  margin-top: 12px;
+  font-size: 1.2rem; }
+
+/**
+* Media Queries, including bootstrap4 breakpoints (<576px, >=576px, >=768px, >=992px, >=1200px)
+**/
+@media screen and (min-width: 320px) {
+  body::before {
+    content: "320px";
+    font-family: Arial, sans-serif;
+    color: green;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-weight: 700;
+    margin: 5px;
+    font-size: 1rem;
+    z-index: 9999; }
+
+  .carousel-caption {
+    bottom: -8px; }
+
+  .carousel-item h3 {
+    margin-top: 12px;
+    font-size: 1rem; }
+
+  .carousel-item p {
+    font-size: .9rem; }
+
+  .laptop {
+    height: 80%;
+    width: 80%; } }
+@media screen and (min-width: 480px) {
+  body::before {
+    content: "480px";
+    color: goldenrod; } }
+@media screen and (min-width: 576px) {
+  body::before {
+    content: "576px";
+    color: maroon; } }
+@media screen and (min-width: 768px) {
+  body::before {
+    content: "768px";
+    color: orange; }
+
+  .menu-items {
+    display: initial; } }
+@media screen and (min-width: 992px) {
+  body::before {
+    content: "992px";
+    color: black; } }
+@media screen and (min-width: 1200px) {
+  body::before {
+    content: "1200px";
+    color: red; } }
+@media screen and (min-width: 1400px) {
+  body::before {
+    content: "1400px";
+    color: blue; } }
+@media screen and (min-width: 1600px) {
+  body::before {
+    content: "1600px";
+    color: gree; } }
+@media screen and (min-width: 1800px) {
+  body::before {
+    content: "1800px";
+    color: peru; } }
+
+/*# sourceMappingURL=media-queries.css.map */
